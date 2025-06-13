@@ -1,0 +1,12 @@
+[plugin]
+id = "websocket_server_plugin"
+disabled = false
+name = "WebSocket Server"
+version = "1.0.0"
+description = "WebSocket 服务器插件，支持客户端连接管理和消息通信"
+author = "Your Name"
+library = "websocket_server"
+category = "network"
+tags = ["websocket", "server", "communication"]
+min_app_version = "0.1.0"
+require_history = false
