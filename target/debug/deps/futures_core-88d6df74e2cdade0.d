@@ -1,0 +1,11 @@
+/Users/debin/Desktop/Codes/Tauri/chat-client/plugins/websocket-server/target/debug/deps/libfutures_core-88d6df74e2cdade0.rmeta: /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/lib.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/future.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/stream.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/task/mod.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/task/poll.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/task/__internal/mod.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/task/__internal/atomic_waker.rs
+
+/Users/debin/Desktop/Codes/Tauri/chat-client/plugins/websocket-server/target/debug/deps/futures_core-88d6df74e2cdade0.d: /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/lib.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/future.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/stream.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/task/mod.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/task/poll.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/task/__internal/mod.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/task/__internal/atomic_waker.rs
+
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/lib.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/future.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/stream.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/task/mod.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/task/poll.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/task/__internal/mod.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/futures-core-0.3.31/src/task/__internal/atomic_waker.rs:

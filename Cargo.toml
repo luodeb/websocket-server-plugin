@@ -20,4 +20,4 @@ uuid = { version = "1.0", features = ["v4"] }
 futures-util = "0.3"
 
 # 引用插件接口库
-plugin-interfaces = { path = "../../../../plugin-interfaces" }
+plugin-interfaces = { git = "https://github.com/luodeb/plugin-interfaces.git" }

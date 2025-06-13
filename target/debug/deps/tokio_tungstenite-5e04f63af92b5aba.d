@@ -1,0 +1,10 @@
+/Users/debin/Desktop/Codes/Tauri/chat-client/plugins/websocket-server/target/debug/deps/libtokio_tungstenite-5e04f63af92b5aba.rmeta: /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/lib.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/compat.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/connect.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/handshake.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/stream.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/tls.rs
+
+/Users/debin/Desktop/Codes/Tauri/chat-client/plugins/websocket-server/target/debug/deps/tokio_tungstenite-5e04f63af92b5aba.d: /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/lib.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/compat.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/connect.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/handshake.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/stream.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/tls.rs
+
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/lib.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/compat.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/connect.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/handshake.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/stream.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/tokio-tungstenite-0.24.0/src/tls.rs:

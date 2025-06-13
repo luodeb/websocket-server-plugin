@@ -1,0 +1,12 @@
+/Users/debin/Desktop/Codes/Tauri/chat-client/plugins/websocket-server/target/debug/deps/liblibc-5b988fdaf9c788c1.rmeta: /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/lib.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/macros.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/primitives.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/mod.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/bsd/mod.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/bsd/apple/mod.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/bsd/apple/b64/mod.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/bsd/apple/b64/aarch64/mod.rs
+
+/Users/debin/Desktop/Codes/Tauri/chat-client/plugins/websocket-server/target/debug/deps/libc-5b988fdaf9c788c1.d: /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/lib.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/macros.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/primitives.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/mod.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/bsd/mod.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/bsd/apple/mod.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/bsd/apple/b64/mod.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/bsd/apple/b64/aarch64/mod.rs
+
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/lib.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/macros.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/primitives.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/mod.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/bsd/mod.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/bsd/apple/mod.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/bsd/apple/b64/mod.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/libc-0.2.172/src/unix/bsd/apple/b64/aarch64/mod.rs:

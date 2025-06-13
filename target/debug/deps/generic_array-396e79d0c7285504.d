@@ -1,0 +1,11 @@
+/Users/debin/Desktop/Codes/Tauri/chat-client/plugins/websocket-server/target/debug/deps/libgeneric_array-396e79d0c7285504.rmeta: /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/lib.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/hex.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/impls.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/arr.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/functional.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/iter.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/sequence.rs
+
+/Users/debin/Desktop/Codes/Tauri/chat-client/plugins/websocket-server/target/debug/deps/generic_array-396e79d0c7285504.d: /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/lib.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/hex.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/impls.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/arr.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/functional.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/iter.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/sequence.rs
+
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/lib.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/hex.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/impls.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/arr.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/functional.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/iter.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/generic-array-0.14.7/src/sequence.rs:

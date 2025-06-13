@@ -1,0 +1,15 @@
+/Users/debin/Desktop/Codes/Tauri/chat-client/plugins/websocket-server/target/debug/deps/libuuid-71e2bb81ffed652e.rmeta: /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/lib.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/builder.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/error.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/non_nil.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/parser.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/fmt.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/timestamp.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/v4.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/rng.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/external.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/macros.rs
+
+/Users/debin/Desktop/Codes/Tauri/chat-client/plugins/websocket-server/target/debug/deps/uuid-71e2bb81ffed652e.d: /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/lib.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/builder.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/error.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/non_nil.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/parser.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/fmt.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/timestamp.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/v4.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/rng.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/external.rs /Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/macros.rs
+
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/lib.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/builder.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/error.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/non_nil.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/parser.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/fmt.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/timestamp.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/v4.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/rng.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/external.rs:
+/Users/debin/.cargo/registry/src/rsproxy.cn-e3de039b2554c837/uuid-1.17.0/src/macros.rs:
