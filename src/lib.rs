@@ -4,9 +4,10 @@ use plugin_interfaces::{
     pluginui::{Context, Ui},
     PluginHandler, PluginInstanceContext, PluginInterface,
 };
-use std::collections::HashMap;
+use serde::{Deserialize, Serialize};
 use std::net::SocketAddr;
 use std::sync::Arc;
+use std::{collections::HashMap, fs};
 use tokio::{runtime::Runtime, sync::Mutex};
 use tokio_tungstenite::{accept_async, tungstenite::Message};
 use uuid::Uuid;
@@ -30,20 +31,30 @@ pub struct ClientInfo {
 #[derive(Clone)]
 pub struct WebSocketServerPlugin {
     server_running: Arc<Mutex<bool>>,
-    server_address: String,
-    server_port: String,
     clients: Arc<Mutex<HashMap<String, ClientInfo>>>,
     selected_client: Option<String>,
     runtime: Option<Arc<Runtime>>,
     server_handle: Arc<Mutex<Option<tokio::task::JoinHandle<()>>>>,
+    user_config: UserConfig,
+    user_path: String,
+}
+
+/// 用户配置信息
+#[derive(Debug, Clone, Deserialize, Serialize)]
+pub struct UserConfig {
+    server_address: String,
+    server_port: String,
 }
 
 impl WebSocketServerPlugin {
     fn new() -> Self {
         Self {
             server_running: Arc::new(Mutex::new(false)),
-            server_address: "127.0.0.1".to_string(),
-            server_port: "8080".to_string(),
+            user_config: UserConfig {
+                server_address: "127.0.0.1".to_string(),
+                server_port: "8080".to_string(),
+            },
+            user_path: "user_config.toml".to_string(),
             clients: Arc::new(Mutex::new(HashMap::new())),
             selected_client: None,
             runtime: None,
@@ -53,7 +64,10 @@ impl WebSocketServerPlugin {
 
     /// 启动 WebSocket 服务器
     async fn start_server(&self, plugin_ctx: PluginInstanceContext) {
-        let addr = format!("{}:{}", self.server_address, self.server_port);
+        let addr = format!(
+            "{}:{}",
+            self.user_config.server_address, self.user_config.server_port
+        );
         log_info!("Starting WebSocket server on {}", addr);
 
         match tokio::net::TcpListener::bind(&addr).await {
@@ -278,6 +292,19 @@ impl WebSocketServerPlugin {
             }
         }
     }
+
+    /// 保存配置信息
+    fn save_config(&self) -> Result<(), Box<dyn std::error::Error>> {
+        let content = toml::to_string(&self.user_config)?;
+        fs::write(&self.user_path, content)?;
+        Ok(())
+    }
+
+    fn load_config(&mut self) -> Result<(), Box<dyn std::error::Error>> {
+        let content = fs::read_to_string(&self.user_path)?;
+        self.user_config = toml::from_str(&content)?;
+        Ok(())
+    }
 }
 
 impl PluginHandler for WebSocketServerPlugin {
@@ -287,16 +314,25 @@ impl PluginHandler for WebSocketServerPlugin {
         // 服务器控制区域
         ui.horizontal(|ui| {
             ui.label("服务器地址:");
-            let text_response = ui.text_edit_singleline(&mut self.server_address);
+            let text_response = ui.text_edit_singleline(&mut self.user_config.server_address);
             if text_response.changed() {
-                log_info!("Server address changed to: {}", self.server_address);
+                self.save_config().unwrap_or_else(|e| {
+                    log_warn!("Failed to save user config: {}", e);
+                });
+                log_info!(
+                    "Server address changed to: {}",
+                    self.user_config.server_address
+                );
             }
         });
         ui.horizontal(|ui| {
             ui.label("服务器端口:");
-            let port_response = ui.text_edit_singleline(&mut self.server_port);
+            let port_response = ui.text_edit_singleline(&mut self.user_config.server_port);
             if port_response.changed() {
-                log_info!("Server port changed to: {}", self.server_port);
+                self.save_config().unwrap_or_else(|e| {
+                    log_warn!("Failed to save user config: {}", e);
+                });
+                log_info!("Server port changed to: {}", self.user_config.server_port);
             }
         });
 
@@ -331,6 +367,11 @@ impl PluginHandler for WebSocketServerPlugin {
             "[{}] WebSocket Server Plugin mounted successfully",
             metadata.name
         );
+
+        let config_path = metadata.config_path.clone();
+        self.user_path = config_path.replace("config.toml", "user_config.toml");
+        self.load_config()
+            .unwrap_or_else(|e| log_warn!("Failed to load user config: {}", e));
 
         // 初始化 tokio 异步运行时
         match Runtime::new() {
